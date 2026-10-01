@@ -14,8 +14,8 @@ Temperature data are obtained from the **ERA5-Land hourly dataset**.
 
 For each year from **2014 to 2024**, the analysis uses:
 
-- the one-year lagged number of heatwave days
-- the one-year lagged number of drought months
+- one-year lagged number of heatwave days
+- one-year lagged number of drought months
 
 Drought is measured using **SPEI-12**. SPEI-12 is calculated using precipitation data from the ERA5-Land monthly averaged dataset and the `SPEI` package in R.
 
@@ -27,7 +27,7 @@ The outcome is the probability of experiencing **moderate or severe food insecur
 
 FIES is based on responses to eight questions about people's experiences of constrained access to enough safe and nutritious food to support normal growth, development and an active and healthy life.
 
-## Statistical model
+## Econometric framework
 
 To account for differences between countries and changes over time, the model includes location fixed effects and additional socioeconomic variables.
 
